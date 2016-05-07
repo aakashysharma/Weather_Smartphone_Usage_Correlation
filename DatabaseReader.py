@@ -1,7 +1,7 @@
 #Read database for data about video request
 import yaml
 
-with open("db.yaml",'r') as dbconfig:
+with open("config.yaml",'r') as dbconfig:
     cfg = yaml.load(dbconfig)
 #test config file read
 print cfg['mysql']
@@ -12,7 +12,7 @@ db = MySQLdb.connect(host="localhost", user="lab", passwd="labuser", db="lab_usa
 
 cursor = db.cursor()
 
-cursor.execute("select * from requests")
+cursor.execute("select viewedon from requests")
 
 db.commit()
 
