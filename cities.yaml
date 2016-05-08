@@ -1,3 +1,7 @@
+#Based on France's statistics agency and internet penetration data, we decided to choose the most dense French metropolitan cities
+# http://www.arcep.fr/index.php?id=12823&L=1
+# http://www.pcmag.com/article2/0,2817,2459036,00.asp
+# Population data from INSEE http://www.insee.fr/en/themes/theme.asp?theme=2
 cities:
     - 'Paris, France'
     - 'Lyon, France'
