@@ -4,3 +4,6 @@ mysql:
     user: lab
     passwd: labuser
     db: lab_usage_data
+
+owm:
+    api_key: a9e8d3db0f1f532bb6513a3fc7a80cf9
